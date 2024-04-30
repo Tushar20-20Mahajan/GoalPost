@@ -10,7 +10,7 @@ import UIKit
 
 struct Goal {
     var goalDescription : String
-    var goalType : String
+    var goalType : GoalType
     var goalProgress : Int32
     var goalCompletionValue : Int32
 }
